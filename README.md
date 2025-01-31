@@ -31,6 +31,9 @@ The **Personal Budget Tracker** is a web-based application designed to assist us
 ## 🔗 Live Demo / Submission Link
 [Click Here](https://github.com/JustArya-Github/Personal-Budget-Tracker.git)
 
+## 🤝 About Innomatics
+**Innomatics Research Labs** is a leading technology training and development institute that provides industry-oriented learning experiences in data science, web development, and other cutting-edge technologies. The organization offers hands-on training, live projects, and mentorship to help students and professionals build strong career foundations.
+
 ## 🤝 Acknowledgments
 Special thanks to **Innomatics** for this valuable learning experience!
 
