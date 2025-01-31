@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Expense Tracker</title>
+</head>
+<body>
+
+    <center>
+        <h1><u>Personal Budget Tracker</u></h1>
+        <img src="/Images/Title image.png" alt="Expense Logo" width="100">
+        <p><i>Monitor and control your spending with ease.</i></p>
+        <hr>
+    </center>
+
+    <h2>💵 Account Summary</h2>
+    <p><b>Total Balance:</b> <strong>$0.00</strong></p>
+    <img src="/Images/Summary.png" alt="Balance Icon" width="50">
+    <hr>
+
+    <h2>📌 Record an Expense</h2>
+    <p><b>Fill in the details below to add a new expense:</b></p>
+
+    <form>
+        <b>Expense Title:</b><br>
+        <input type="text" placeholder="E.g., Grocery Shopping" required><br><br>
+
+        <b>Amount ($):</b><br>
+        <input type="number" placeholder="Enter amount" required><br><br>
+
+        <b>Expense Type:</b><br>
+        <select required>
+            <option value="" disabled selected>Select Category</option>
+            <option value="Food">🍽️ Food</option>
+            <option value="Travel">🚆 Travel</option>
+            <option value="Entertainment">🎭 Entertainment</option>
+            <option value="Bills">📑 Bills</option>
+            <option value="Shopping">🛍️ Shopping</option>
+            <option value="Miscellaneous">📌 Other</option>
+        </select><br><br>
+
+        <b>Date:</b><br>
+        <input type="date" required><br><br>
+
+        <b>Payment Mode:</b><br>
+        <select required>
+            <option value="" disabled selected>Select Payment Method</option>
+            <option value="Cash">💵 Cash</option>
+            <option value="Credit Card">💳 Credit Card</option>
+            <option value="Debit Card">🏦 Debit Card</option>
+            <option value="Online">🌐 Online Payment</option>
+        </select><br><br>
+
+        <b>Additional Notes:</b><br>
+        <textarea rows="3" placeholder="Add any details (optional)"></textarea><br><br>
+
+        <button type="submit"><b>Add Expense</b></button>
+    </form>
+    <hr>
+
+    <h2>📋 Expense Log</h2>
+    <p><i>Review your past expenditures here:</i></p>
+
+    <img src="/Images/Review.png" alt="Expense Log" width="50"><br><br>
+
+    <table border="1" width="100%" cellpadding="5" cellspacing="0">
+        <tr>
+            <th><b>Expense</b></th>
+            <th><b>Cost</b></th>
+            <th><b>Category</b></th>
+            <th><b>Date</b></th>
+            <th><b>Payment Method</b></th>
+            <th><b>Remarks</b></th>
+        </tr>
+        <tr>
+            <td colspan="6" align="center"><i>No records found.</i></td>
+        </tr>
+    </table>
+    <hr>
+
+    <center>
+        <p><b>© 2025 Expense Management</b> | <i>Take charge of your finances today!</i></p>
+        <img src="/Images/Finance profile image.png " alt="Finance Management" width="80">
+    </center>
+
+</body>
+</html>
